@@ -28,4 +28,16 @@ a:visited{
 #possess {
     margin-bottom:70px;
 }
-
+fieldset {
+    border:none;
+    background-color:#f0f8ff9a;
+    margin:0 150px 0 150px;
+    
+}
+label {
+    display:block;
+    margin:0.5rem 0;
+}
+textarea {
+    display:block;
+}

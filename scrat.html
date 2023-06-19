@@ -33,9 +33,24 @@
             <input type="radio" name="radio" id="no">No</input>
         </section>
         <section>
-            <p>This webpage was created and styled by #scratgang</p>
+            <fieldset>
+                <label for="referrer">What is your favorite thing about scrat?
+                    <select id="referrer" name="referrer">
+                        <option value="">(select one)</option>
+                        <option value="1">I like that he is fluffy</option>
+                        <option value="2">I like that he is a doofus</option>
+                        <option value="3">I like that he has huge teeth</option>
+                        <option value="4">I like everything about scrat</option>
+                    </select>
+                </label>
+                <label for="response">Provide some extra comments about why you think scrat is the best:
+                    <textarea id="response" name="respones" rows="5" cols="40" placeholder="I really like scrat because..."></textarea>
+                </label>
+                <input type="submit" value="submit"/>
+            </fieldset>
         </section>
         <footer>
+            <p>This website was created and styled by #scratgang</p>
             <p>click <a href="https://en.wikipedia.org/wiki/Ice_Age_(2002_film)" target="_blank">here </a>to learn more about scrat and his origins</p>
         </footer>
     </body>
