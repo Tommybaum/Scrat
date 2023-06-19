@@ -1,0 +1,31 @@
+h1{
+    color:grey
+}
+#question{
+    border:4px solid white;
+    width:300px;
+    display:inline-block;
+    margin-bottom:70px;
+}
+ul{
+    display:inline-block;
+    border:4px solid white;
+    border-radius: 45%;
+    padding:10px 50px;
+    font-weight:bold;
+    color:white
+   
+}
+p{
+    color:white;
+}
+a:hover{
+    color:greenyellow;
+}
+a:visited{
+    color:red;
+}
+#possess {
+    margin-bottom:70px;
+}
+
